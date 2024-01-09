@@ -1,0 +1,12 @@
+.nav-item {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(38, 127, 200); /* Example RGB color */
+}
