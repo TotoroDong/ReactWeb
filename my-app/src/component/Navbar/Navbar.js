@@ -1,11 +1,14 @@
 import React from 'react';
 import './Navbar.css'
+import homeIcon from '../../Assets/logo.png';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div>
-                <a href="/" className="nav-item">Home</a>
+                <a href="/"> 
+                <img src={homeIcon} alt="Home" className="nav-home-icon" />
+                </a>
             </div>
             <div>
                 <a href="/about" className="nav-item">About</a>

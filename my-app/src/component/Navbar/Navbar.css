@@ -2,11 +2,18 @@
     margin: 0 10px;
     text-decoration: none;
     color: white
+    
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgb(38, 127, 200); /* Example RGB color */
+    background-color: rgb(39, 172, 202); /* Example RGB color */
+    align-items: center;
+}
+
+.nav-home-icon {
+    width: auto;
+    height: 25px;
 }
